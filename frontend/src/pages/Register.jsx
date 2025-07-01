@@ -72,7 +72,7 @@ const Register = () => {
           <button className="w-full bg-[#223531] text-white h-9 rounded-lg mt-3 active:translate-y-0.5 cursor-pointer hover:bg-[#2c423d] shadow-xl font-bold">
             Sign Up
           </button>
-           <div className="text-sm text-center pt-4 text-[#78746D]">Already have an account? <a href=""><u>Login</u></a> </div>
+           <div className="text-sm text-center pt-4 text-[#78746D]">Already have an account? <a href="/login"><u>Sign In</u></a> </div>
         </div>
 
         {/* Right Image Section */}

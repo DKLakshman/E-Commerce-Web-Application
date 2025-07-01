@@ -34,7 +34,7 @@ const Login = () => {
           </button>
           <div className="text-sm text-center pt-4 text-[#78746D]">
             Don't have an account?{" "}
-            <a href="">
+            <a href="/register">
               <u>Sign Up</u>
             </a>{" "}
           </div>
