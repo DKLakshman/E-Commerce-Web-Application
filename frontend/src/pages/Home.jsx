@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import Hero from "../components/home/Hero";
 import Products from "../components/home/Products";
 import LimitedEdition from "../components/home/LimitedEdition";
@@ -8,16 +8,21 @@ import ContactUs from "../components/home/ContactUs";
 import Footer from "../components/Footer";
 
 function Home() {
+  const contactRef = useRef(null); // <-- Step 1: create ref
+
+  const scrollToContact = () => {
+    contactRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <div>
       <Hero />
-      <MarqueeBanner/>
+      <MarqueeBanner />
       <Products />
-      <AboutUs/>
+      <AboutUs />
       <LimitedEdition />
-      <ContactUs/>
-      <Footer/>
-
+      <ContactUs ref={contactRef} />
+      <Footer onContactClick={scrollToContact} />
     </div>
   );
 }
