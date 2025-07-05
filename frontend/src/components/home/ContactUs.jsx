@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactUs = () => {
   return (
-    <div className='bg-[#bdbab1]  pt-9 pb-10'>
+    <div className='bg-[#bbb8b0]  pt-9 pb-10'>
       <div className='container mx-auto grid '>
         <div className='text-[#223531] text-center sm:text-4xl font-bold col-span-10 mt-3'>ContactUs</div>
 

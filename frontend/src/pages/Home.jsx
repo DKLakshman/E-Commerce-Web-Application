@@ -5,6 +5,7 @@ import LimitedEdition from "../components/home/LimitedEdition";
 import MarqueeBanner from "../components/home/MarqueeBanner";
 import AboutUs from "../components/home/AboutUs";
 import ContactUs from "../components/home/ContactUs";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
       <AboutUs/>
       <LimitedEdition />
       <ContactUs/>
+      <Footer/>
 
     </div>
   );
