@@ -13,7 +13,8 @@ const Footer = () => {
         <div className="grid grid-cols-13 pt-8">
           <div className="col-span-13 sm:col-span-3 sm:col-start-2 text-center">
             <div className="mb-5 text-[15px] sm:text-xl font-bold text-[#223531]">Customer care</div>
-            <div className="mb-3 text-[13px] sm:text-sm cursor-pointer"><a href="http://" target="_blank" rel="noopener noreferrer">FAQ</a></div>
+            {/* test */}
+            <div className="mb-3 text-[13px] sm:text-sm cursor-pointer"><a href="http://" target="_blank" rel="noopener noreferrer">FAQ</a></div> 
             <div className="mb-3 text-[13px] sm:text-sm cursor-pointer"><a href="http://" target="_blank" rel="noopener noreferrer">Track Your Order</a></div>
             <div className="mb-3 text-[13px] sm:text-sm cursor-pointer"><a href="http://" target="_blank" rel="noopener noreferrer">Returns</a></div>
             <div className="mb-3 text-sm cursor-pointer"><a href="http://" target="_blank" rel="noopener noreferrer">Contact Us</a></div>
