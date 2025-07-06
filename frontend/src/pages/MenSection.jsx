@@ -5,11 +5,6 @@ import Product2 from "../assets/menSection/ms1.png";
 import Footer from "../components/Footer";
 
 function MenSection() {
-     const contactRef = useRef(null); // <-- Step 1: create ref
-    
-      const scrollToContact = () => {
-        contactRef.current?.scrollIntoView({ behavior: "smooth" });
-      };
   return (
     <div>
       <div
@@ -39,7 +34,7 @@ function MenSection() {
           </div>
         </div>
       </div>
-      <Footer onContactClick={scrollToContact} />
+      <Footer />
     </div>
   );
 }
