@@ -5,6 +5,7 @@ import Register from "./pages/Register";
 import Login from "./pages/Login";
 import Home from "./pages/Home";
 import Nav from "./components/Nav";
+import MenSection from "./pages/MenSection";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -16,6 +17,7 @@ function App() {
         <Route path="/login" element={<Login/>} />
         <Route path="/" element={<Home/>}/>
         <Route path="/nav" element={<Nav/>}/>
+        <Route path="/menSection" element={<MenSection/>}/>
 
       </Routes>
      

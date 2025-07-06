@@ -1,8 +1,8 @@
 import React from "react";
 import ContactUs from "./ContactUs";
 import Hero from "./Hero";
-import Product1 from "../../assets/home/productSection/pro4.png";
-import Product2 from "../../assets/home/productSection/pro6.png";
+import Product1 from "../../assets/home/productSection/pro11.png";
+import Product2 from "../../assets/home/productSection/pro10.png";
 
 const Products = () => {
   return (
