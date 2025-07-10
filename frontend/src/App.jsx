@@ -10,6 +10,7 @@ import WomenSection from "./pages/WomenSection";
 import ProductCard from "./components/ProductCard";
 import ProductsAll from "./pages/ProductsAll";
 import SingleProduct from "./pages/SingleProduct";
+import Cart from "./pages/Cart";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -26,6 +27,7 @@ function App() {
         <Route path="/product" element={<ProductCard/>}/>
         <Route path="/products" element={<ProductsAll/>}/>
         <Route path="/single" element={<SingleProduct/>}/>
+        <Route path="/cart" element={<Cart/>}/>
 
       </Routes>
      
